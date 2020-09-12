@@ -3,3 +3,9 @@
 * 编译语言： Java 14.0.2
 * 单元测试： Junit 5
 
+# 运行
+
+打开release文件，找到main.jar文件，按下方形式运行：
+```java
+java -jar main.jar [原文文件] [抄袭版论文的文件] [答案文件]
+```
