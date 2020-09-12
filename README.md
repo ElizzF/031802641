@@ -5,7 +5,7 @@
 
 # 运行
 
-打开release文件，找到main.jar文件，按下方形式运行：
+打开releases文件夹，找到main.jar文件，按下方形式运行：
 ```java
 java -jar main.jar [原文文件] [抄袭版论文的文件] [答案文件]
 ```
