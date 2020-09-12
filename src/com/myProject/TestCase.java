@@ -23,6 +23,5 @@ class TestCase {
 	public void testCos() { 
 		System.out.println("cos开始处理：" + "tests/short_orig_other.txt");
 		MainProcess.Process("tests/short_orig.txt", "tests/short_orig_other.txt", "ans/short_ans.txt");
-		
 	}
 }
