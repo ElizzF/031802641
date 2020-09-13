@@ -20,8 +20,10 @@ class TestCase {
 			            e.printStackTrace();
 			        }
 				}
-				System.out.println("simHash开始处理：" + file);
-				MainProcess.Process("tests/orig.txt", "tests/" + file, "ans/ans" + cnt + ".txt");
+				else {
+					System.out.println("simHash开始处理：" + file);
+					MainProcess.Process("tests/orig.txt", "tests/" + file, "ans/ans" + cnt + ".txt");
+				}
 				cnt++;
 			}
 		}
